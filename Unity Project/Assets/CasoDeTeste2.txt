@@ -1,0 +1,89 @@
+﻿34
+0,1,2,5,2,Esquerda
+0,5,2,5,2,Direita
+0,19,2,5,2,Baixo
+1,2,2,3,2,Baixo
+1,3,2,3,2,Esquerda
+1,4,2,3,2,Cima
+5,6,2,7,2,Direita
+5,7,1,7,2,Baixo
+7,8,2,7,3,Baixo
+8,9,2,7,5,Direita
+8,10,2,7,5,Baixo
+10,11,2,7,7,Baixo
+11,12,2,7,9,Direita
+11,13,2,7,9,Baixo
+13,15,2,7,11,Baixo
+15,16,2,7,13,Direita
+15,17,2,7,13,Baixo
+15,18,2,7,13,Esquerda
+7,25,5,7,3,Esquerda
+19,20,3,5,2,Direita
+19,21,3,5,2,Baixo
+21,22,2,13,19,Direita
+21,23,2,13,19,Baixo
+23,24,2,13,21,Esquerda
+23,25,2,13,21,Direita
+25,26,2,7,3,Direita
+25,27,2,7,3,Baixo
+27,28,2,15,23,Direita
+27,29,2,15,23,Baixo
+5,14,11,7,2,Cima
+13,14,6,7,11,Direita
+31,32,2,15,27,Direita
+31,33,3,15,27,Esquerda
+29,31,2,15,25,Baixo
+29,30,2,15,25,Direita
+1,0,2,3,2,Direita
+5,0,2,7,2,Esquerda
+19,0,2,5,2,Cima
+2,1,2,3,4,Cima
+3,1,2,1,2,Direita
+4,1,2,3,0,Baixo
+6,5,2,9,2,Esquerda
+7,5,1,7,3,Cima
+8,7,2,7,5,Cima
+9,8,2,9,5,Esquerda
+10,8,2,7,7,Cima
+11,10,2,7,9,Cima
+12,11,2,9,9,Esquerda
+13,11,2,7,11,Cima
+15,13,2,7,13,Cima
+16,15,2,9,13,Esquerda
+17,15,2,7,15,Cima
+18,15,2,5,13,Direita
+25,7,5,7,3,Direita
+20,19,3,15,16,Esquerda
+21,19,3,13,19,Cima
+22,21,2,15,19,Esquerda
+23,21,2,13,21,Cima
+24,23,2,11,21,Direita
+25,23,2,7,3,Esquerda
+26,25,2,17,21,Esquerda
+27,25,2,15,23,Cima
+28,27,2,17,23,Esquerda
+29,27,2,15,25,Cima
+14,5,11,10,8,Baixo
+14,13,6,10,8,Esquerda
+32,31,2,13,27,Esquerda
+33,31,3,17,27,Direita
+31,29,2,15,27,Cima
+30,29,2,17,25,Esquerda
+Destinos
+Cantina,2
+Estacionamento,4
+Sala de Aula A3,6
+Sala de Aula A2,9
+Sala de Aula A1,12
+Recepção,14
+Quadra,16
+Xadrez,17
+Sala de Dança,18
+Sala de Aula B1,20
+Sala de Aula B2,22
+Sala de Aula B3,24
+Sala de Aula B4,30
+Sala de Aula B5,32
+Sala de Aula B6,33
+Banheiro Masculino,26
+Banheiro Feminino,28
