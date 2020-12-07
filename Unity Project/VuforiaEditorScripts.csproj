@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{387882F1-2D0C-D7A1-3BB9-23B264BAF0A8}</ProjectGuid>
+    <ProjectGuid>{BDBD0335-9922-7C1F-CEA1-749541A8E17B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VuforiaEditorScripts</AssemblyName>
@@ -305,19 +305,19 @@
       <HintPath>G:/TCC Desenvolvimento/Unity/2018.4.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>G:/TCC Desenvolvimento/Unity Programs/ProjetoFinal.v1/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>E:/GitHub Projeto/inNaviAR/Unity Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/TCC Desenvolvimento/Unity Programs/ProjetoFinal.v1/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/GitHub Projeto/inNaviAR/Unity Project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/TCC Desenvolvimento/Unity Programs/ProjetoFinal.v1/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/GitHub Projeto/inNaviAR/Unity Project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/TCC Desenvolvimento/Unity Programs/ProjetoFinal.v1/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/GitHub Projeto/inNaviAR/Unity Project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>G:/TCC Desenvolvimento/Unity Programs/ProjetoFinal.v1/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>E:/GitHub Projeto/inNaviAR/Unity Project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>G:/TCC Desenvolvimento/Unity/2018.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -676,7 +676,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{93E47C86-A005-61E2-BA77-2976EE785137}</Project>
+      <Project>{70884E3D-731D-9C33-6443-A437C698469F}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
   </ItemGroup>

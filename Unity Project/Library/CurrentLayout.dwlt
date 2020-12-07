@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 474}
   m_MaxSize: {x: 14000, y: 14024}
   vertical: 0
-  controlID: 301
+  controlID: 1252
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 474}
   m_MaxSize: {x: 10000, y: 14024}
   vertical: 1
-  controlID: 239
+  controlID: 1253
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 240
+  controlID: 1254
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5e280000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f0faffffdefbffff
+      m_ExpandedIDs: eef8ffff04f9ffffa0f9ffffb6f9ffff26fbffff38fbffffdefbffff822e0000543000007038000078380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\GitHub Projeto\inNaviAR
+  m_LastProjectPath: E:\GitHub Projeto\inNaviAR\Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
