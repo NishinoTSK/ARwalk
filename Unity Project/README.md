@@ -1,2 +1,2 @@
-# inNaviAR
-Navigation indoor with Augmented reality for Down sindrome people.
+# ARwalk
+A Tool to Assist Indoor Navigation with Augmented Reality.
