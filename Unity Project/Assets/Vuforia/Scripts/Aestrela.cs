@@ -259,7 +259,7 @@ class AdjacencyList
         for (int i = 0; i < Tamanho; i++)
             aux2[i] = mudarTextoDirecao[i];
 
-       mudarTextoDirecao[aux[0]] = "SIGA EM FRENTE";//SIGA EM FRENTE
+       mudarTextoDirecao[aux[0]] = "GO STRAIGHT AHEAD";//SIGA EM FRENTE
        Cima(marcador[indiceImagem - 1]);
 
         for (int i = 1; i < tamanhoCaminho; i++)
