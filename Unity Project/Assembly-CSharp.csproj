@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\IniciouAplicativo.cs" />
-    <Compile Include="Assets\Scenes\InserirVertices.cs" />
     <Compile Include="Assets\Scenes\Passo1I.cs" />
     <Compile Include="Assets\Scenes\PassoFinalI.cs" />
     <Compile Include="Assets\Scenes\PassoGeI.cs" />

@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Vuforia\Scripts\Aestrela.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\AlgoritmoDeRota.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BoundingBoxRenderer.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ButtonList.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
@@ -77,11 +76,8 @@
     <Compile Include="Assets\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ListControl.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ListView.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\MENU.cs" />
     <Compile Include="Assets\Vuforia\Scripts\MudarPersonagem.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Rota.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\Rota2.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\Teste.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Track.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>G:/TCC Desenvolvimento/Unity/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

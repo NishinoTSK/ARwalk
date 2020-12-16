@@ -259,7 +259,7 @@ class AdjacencyList
         for (int i = 0; i < Tamanho; i++)
             aux2[i] = mudarTextoDirecao[i];
 
-       mudarTextoDirecao[aux[0]] = "GO STRAIGHT AHEAD";//SIGA EM FRENTE
+       mudarTextoDirecao[aux[0]] = "SIGA EM FRENTE";//SIGA EM FRENTE
        Cima(marcador[indiceImagem - 1]);
 
         for (int i = 1; i < tamanhoCaminho; i++)
@@ -550,7 +550,7 @@ public class Aestrela : MonoBehaviour
                 if (auxiliar == 1)
                 {
                     contElevador = 0;
-                    if (aux[0].Equals('E'))//Verifica ao ler se na aresta tem um vértice elevador.
+                    if (aux[0].Equals('S'))//Verifica ao ler se na aresta tem um vértice elevador.
                         contElevador = 2;
                     for (int i = 0 + contElevador; i < line.Length; i++)
                     {
