@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/oniyo/Desktop/FinalUltimo.apk
+C:/Users/oniyo/Desktop/ARwalk.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/TelaInicial.unity
