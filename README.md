@@ -8,6 +8,7 @@ To install the application on your phone, just download the .apk file in Android
 The Markers folder contains the images used to identify the positions within the internal environment and the Password to Configuration file is the password to be able to enter the configuration screen within the application.
 
 In test files are the files that were used for testing. To load in the application just download the .txt file and put it in the following folder:
+
 If it is android:
 /storage/emulated/0/Android/data/com.Personal.ARwalk/files
 
