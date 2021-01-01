@@ -21,6 +21,7 @@ public class Rota : MonoBehaviour
     static public string[] mudarTextoDirecao;
     static public string arquivoLoad;
     static public string arquivoLoadCondicao;
+    static public string arquivoLoadVoz;
     static public int condicaoMotora = -1;
-
+    static public int permitirVozPersonagem = 0;
 }

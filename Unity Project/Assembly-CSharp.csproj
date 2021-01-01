@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scenes\TamanhoD.cs" />
     <Compile Include="Assets\Scenes\TelaInicial.cs" />
     <Compile Include="Assets\Scenes\TerceiraTela.cs" />
+    <Compile Include="Assets\Scenes\VozPersonagem.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />

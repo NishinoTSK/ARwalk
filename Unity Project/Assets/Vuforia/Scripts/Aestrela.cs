@@ -598,8 +598,17 @@ public class Aestrela : MonoBehaviour
         {
             string[] lines = File.ReadAllLines(arquivoLoadCondicao);
             condicaoMotora = Convert.ToInt32(lines[0]);
-            Debug.Log(condicaoMotora);
+            //Debug.Log(condicaoMotora);
         }
+
+        arquivoLoadVoz = Application.persistentDataPath + "/voz.txt";
+        if (File.Exists(arquivoLoadVoz))
+        {
+            string[] lines = File.ReadAllLines(arquivoLoadVoz);
+            permitirVozPersonagem = Convert.ToInt32(lines[0]);
+        }
+        Debug.Log("Aha");
+        Debug.Log(permitirVozPersonagem);
 
     }
 
@@ -635,18 +644,22 @@ public class Aestrela : MonoBehaviour
                 else if (contadorMusica == 0)
                 {
                     difIndice = indiceImagem;
-                    contadorMusica = 1;
 
-                    if (mudarTextoDirecao[indiceImagem - 1] == "SIGA EM FRENTE")
-                        go.GetComponent<AudioSource>().clip = frente;
-                    if (mudarTextoDirecao[indiceImagem - 1] == "VOLTE PARA TRAS")
-                        go.GetComponent<AudioSource>().clip = baixo;
-                    if (mudarTextoDirecao[indiceImagem - 1] == "VIRE PARA ESQUERDA")
-                        go.GetComponent<AudioSource>().clip = esquerda;
-                    if (mudarTextoDirecao[indiceImagem - 1] == "VIRE PARA DIREITA")
-                        go.GetComponent<AudioSource>().clip = direita;
+                    if (permitirVozPersonagem == 1)
+                    {
+                        contadorMusica = 1;
 
-                    go.GetComponent<AudioSource>().Play();
+                        if (mudarTextoDirecao[indiceImagem - 1] == "SIGA EM FRENTE")
+                            go.GetComponent<AudioSource>().clip = frente;
+                        if (mudarTextoDirecao[indiceImagem - 1] == "VOLTE PARA TRAS")
+                            go.GetComponent<AudioSource>().clip = baixo;
+                        if (mudarTextoDirecao[indiceImagem - 1] == "VIRE PARA ESQUERDA")
+                            go.GetComponent<AudioSource>().clip = esquerda;
+                        if (mudarTextoDirecao[indiceImagem - 1] == "VIRE PARA DIREITA")
+                            go.GetComponent<AudioSource>().clip = direita;
+
+                        go.GetComponent<AudioSource>().Play();
+                    }
 
                     textoDirecao.text = mudarTextoDirecao[indiceImagem - 1];
 
@@ -656,10 +669,14 @@ public class Aestrela : MonoBehaviour
             }
             else if (rota == indiceImagem - 1 && musicaDestino == 0)
             {
-                musicaDestino++;
-                go.GetComponent<AudioSource>().clip = chegouDestino;//Terminou
-                go.GetComponent<AudioSource>().Play();
                 textoDirecao.text = "CHEGOU AO DESTINO";
+
+                if (permitirVozPersonagem == 1)
+                {
+                    musicaDestino++;
+                    go.GetComponent<AudioSource>().clip = chegouDestino;//Terminou
+                    go.GetComponent<AudioSource>().Play();
+                }
             }
         }
 
