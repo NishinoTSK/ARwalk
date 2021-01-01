@@ -1,7 +1,8 @@
 # ARwalk
 A Tool to Assist Indoor Navigation with Augmented Reality.
 
-It is an internal navigation tool using an augmented reality interface with a focus on people with down syndrome, however it can be used by any type of person.
+It is an internal navigation tool using an augmented reality interface with a focus on people with down syndrome, however it can be used by any type of person. 
+The current application was made for the Portuguese language.
 
 To install the application on your phone, just download the .apk file in Android Application and install it on a smartphone with the android operating system.
 
